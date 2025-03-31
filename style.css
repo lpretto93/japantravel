@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1rem;
+  line-height: 1.6;
+  background: #fffaf7;
+  color: #333;
+}
+h1, h2 {
+  color: #a00000;
+}
+nav {
+  margin-bottom: 2rem;
+}
+nav a {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+  color: #0044cc;
+  text-decoration: none;
+}
+section {
+  margin-bottom: 2rem;
+}
+strong {
+  color: #a00000;
+}
+@media (min-width: 600px) {
+  body {
+    padding: 2rem 4rem;
+  }
+}
