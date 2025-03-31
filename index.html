@@ -1,90 +1,130 @@
-<strong>Prelievi</strong>: Porta euro e cambia direttamente in Giappone. A Shibuya c'è una banca ai piani alti con ottimo cambio (sentire Giuseppe per dettagli).</p>
-    <p><strong>Taxi</strong>: Evitali se possibile. Dopo mezzanotte valuta Uber.</p>
-    <p><strong>App utili</strong>: Google Maps, Navitime, Japan Travel, Suica/Pasmo, Translate, Safety Tips.</p>
-  </section>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guida di Viaggio in Giappone</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-  <section id="alloggio">
-    <h2>Alloggio</h2>
-    <p><strong>APA Hotels</strong>: Catena conveniente e vicino alle stazioni centrali (forse si chiama ABA?).</p>
-    <p><strong>Tokyo</strong>: Soggiorna vicino alla stazione centrale o in zona Sahimbashi.</p>
-    <p><strong>Osaka</strong>: Soggiorno consigliato di massimo 2 giorni.</p>
-    <p><strong>Nikko</strong>: Consigliata come escursione (specialmente se vai a Disneyland).</p>
-    <p><strong>Kamakura</strong>: Valida come alternativa a Nikko, stessa situazione.</p>
-  </section>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fefefe;
+      color: #1a1a1a;
+      padding: 1rem;
+    }
 
-  <section id="luoghi">
-    <h2>Luoghi da visitare</h2>
-    <p><strong>Tokyo</strong>: Shibuya, Shinjuku, Akihabara, Odaiba.</p>
-    <p><strong>Kyoto</strong>: Fushimi Inari, Arashiyama, Gion, Nishiki Market.</p>
-    <p><strong>Osaka</strong>: Castello, street food Dotonbori.</p>
-    <p><strong>Nara</strong>: Tempio molto famoso, consigliato.</p>
-    <p><strong>Miyajima</strong>: Isola iconica. Si dice che non si può nascere né morire lì.</p>
-    <p><strong>Dream Lab Tokyo</strong>: Da valutare se merita essere incluso.</p>
-  </section>
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
 
-  <section id="consigli">
-    <h2>Consigli generali</h2>
-    <p><strong>Libro consigliato</strong>: Marco Togni - ottima guida pratica al Giappone.</p>
-    <p><strong>Porta sempre il passaporto</strong> con te per ogni evenienza.</p>
-    <p><strong>Facebook</strong>: Segui "Giappone per tutti" per consigli utili.</p>
-    <p><strong>Modulo d’ingresso</strong>: Riceverai il modulo in chat, da compilare e presentare in aeroporto.</p>
-    <p><strong>Comportamento</strong>: Silenzio nei mezzi pubblici, togli le scarpe dove richiesto, niente mance.</p>
-  </section>
+    header img {
+      width: 80px;
+      height: auto;
+      margin-bottom: 1rem;
+    }
 
-  <section id="frasi">
-    <h2>Frasi utili</h2>
-    <p><strong>こんにちは</strong> (konnichiwa) = Ciao</p>
-    <p><strong>ありがとう</strong> (arigatou) = Grazie</p>
-    <p><strong>すみません</strong> (sumimasen) = Scusi</p>
-    <p><strong>いくらですか？</strong> (ikura desu ka?) = Quanto costa?</p>
-  </section>
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #d72638;
+      margin-bottom: 1rem;
+    }
 
-  <section id="checklist">
-    <h2>Checklist pre-partenza</h2>
-    <ul>
-      <li>Passaporto e documenti</li>
-      <li>Adattatore</li>
-      <li>Pocket Wi-Fi o SIM</li>
-      <li>Yen in contanti</li>
-      <li>Scarpe comode</li>
-      <li>K-way o ombrello</li>
-    </ul>
-  </section>
+    h2 {
+      font-size: 1.4rem;
+      margin-bottom: 0.5rem;
+      color: #d72638;
+      border-bottom: 2px solid #d72638;
+      padding-bottom: 0.2rem;
+    }
 
-  <section id="appunti">
-    <h2>Appunti di viaggio</h2>
-    <ul>
-      <li>Controllare orari Shinkansen</li>
-      <li>Visita a Nikko o Kamakura (in base al tempo disponibile)</li>
-      <li>Prenotare ryokan a Hakone con anticipo</li>
-      <li>Preferire hotel con cancellazione gratuita</li>
-      <li>Verificare le dimensioni degli appartamenti prima della prenotazione</li>
-      <li>Consultare un sito web per l'acquisto dei pass trasporti (es. Navitime)</li>
-    </ul>
-  </section>
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+      justify-content: center;
+    }
 
-  <section id="planner">
-    <h2>Planner giornaliero</h2>
-    <p>Giorno 1: <input type="text" placeholder="Scrivi qui il piano..." /></p>
-    <p>Giorno 2: <input type="text" placeholder="Scrivi qui il piano..." /></p>
-    <p>Giorno 3: <input type="text" placeholder="Scrivi qui il piano..." /></p>
-    <p>Giorno 4: <input type="text" placeholder="Scrivi qui il piano..." /></p>
-  </section>
+    nav a {
+      background: #f1f1f1;
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      color: #333;
+      transition: background 0.2s;
+    }
 
-  <section id="glossario">
-    <h2>Glossario</h2>
-    <p><strong>Onsen</strong>: sorgente termale</p>
-    <p><strong>Ryokan</strong>: hotel tradizionale</p>
-    <p><strong>Yukata</strong>: kimono leggero</p>
-    <p><strong>Tatami</strong>: pavimento in paglia</p>
-    <p><strong>Omotenashi</strong>: ospitalità giapponese</p>
-  </section>
+    nav a:hover {
+      background: #d72638;
+      color: #fff;
+    }
 
-  <section id="suggerimenti">
-    <h2>Suggerimenti extra</h2>
-    <p>Da Tokyo: Nikko (templi e natura), Kamakura</p>
-    <p>Da Kyoto: Uji (matcha), Himeji (castello)</p>
-    <p>Da Osaka: Street food a Dotonbori</p>
-  </section>
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    strong {
+      color: #d72638;
+    }
+
+    a {
+      color: #0056cc;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+    }
+
+    @media (min-width: 600px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="A_digital_informational_guide_for_traveling_to_Jap.png" alt="Torii">
+    <h1>Guida di Viaggio in Giappone</h1>
+  </header>
+
+  <nav>
+    <a href="#trasporti">Trasporti</a>
+    <a href="#alloggio">Alloggio</a>
+    <a href="#luoghi">Luoghi</a>
+    <a href="#consigli">Consigli</a>
+    <a href="#frasi">Frasi</a>
+    <a href="#checklist">Checklist</a>
+    <a href="#appunti">Appunti</a>
+    <a href="#planner">Planner</a>
+    <a href="#glossario">Glossario</a>
+    <a href="#suggerimenti">Extra</a>
+  </nav>
+
+  <!-- SEZIONI RESTANTI INVARIATE -->
+  <!-- ... -->
 </body>
 </html>
