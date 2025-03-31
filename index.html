@@ -11,48 +11,40 @@
       margin: 0;
       padding: 0;
     }
-
     body {
       font-family: 'Inter', sans-serif;
       background-color: #fefefe;
       color: #1a1a1a;
       padding: 1rem;
     }
-
     header {
       text-align: center;
       margin-bottom: 2rem;
     }
-
     header img {
-      width: 80px;
+      width: 100px;
       height: auto;
       margin-bottom: 1rem;
     }
-
     h1 {
       font-size: 2rem;
       font-weight: 700;
       color: #d72638;
-      margin-bottom: 1rem;
     }
-
     h2 {
       font-size: 1.4rem;
-      margin-bottom: 0.5rem;
+      margin: 1.5rem 0 0.5rem;
       color: #d72638;
       border-bottom: 2px solid #d72638;
       padding-bottom: 0.2rem;
     }
-
     nav {
       display: flex;
       flex-wrap: wrap;
       gap: 0.5rem;
-      margin-bottom: 2rem;
+      margin: 2rem 0;
       justify-content: center;
     }
-
     nav a {
       background: #f1f1f1;
       padding: 0.5rem 1rem;
@@ -62,46 +54,30 @@
       color: #333;
       transition: background 0.2s;
     }
-
     nav a:hover {
       background: #d72638;
       color: #fff;
     }
-
     section {
-      margin-bottom: 2.5rem;
+      margin-bottom: 2rem;
     }
-
-    p, li {
-      font-size: 1rem;
-      line-height: 1.6;
-      margin-bottom: 0.5rem;
-    }
-
     ul {
       padding-left: 1.2rem;
+      margin-top: 0.5rem;
     }
-
+    li, p {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
     strong {
       color: #d72638;
     }
-
-    a {
-      color: #0056cc;
-    }
-
     input[type="text"] {
       width: 100%;
       padding: 0.5rem;
-      margin-top: 0.5rem;
+      margin: 0.5rem 0;
       border: 1px solid #ccc;
       border-radius: 0.5rem;
-    }
-
-    @media (min-width: 600px) {
-      h1 {
-        font-size: 2.5rem;
-      }
     }
   </style>
 </head>
@@ -124,7 +100,115 @@
     <a href="#suggerimenti">Extra</a>
   </nav>
 
-  <!-- SEZIONI RESTANTI INVARIATE -->
-  <!-- ... -->
+  <section id="trasporti">
+    <h2>Trasporti</h2>
+    <p><strong>Navitime</strong>: app utile per pianificare itinerari e verificare compatibilità dei pass regionali.</p>
+    <p><strong>Google Maps</strong>: molto efficace nelle città, soprattutto per metro e bus.</p>
+    <p><strong>Japan Rail Pass</strong>: conveniente per tratte lunghe. Esistono anche versioni regionali.</p>
+    <p><strong>Shinkansen</strong>: treno ad alta velocità tra Tokyo, Kyoto, Osaka. Prenotazione consigliata.</p>
+    <p><strong>Suica / Pasmo</strong>: carte prepagate per trasporti, vending machine, combini.</p>
+    <p><strong>Spedizione bagagli</strong>: comoda e affidabile, utile se viaggi con valigie grandi (~14€).</p>
+    <p><strong>Taxi e Uber</strong>: costosi. Utilizzali solo tardi la sera quando i mezzi non sono disponibili.</p>
+    <p><strong>Cambio valuta</strong>: Porta euro e cambia a Shibuya (chiedi a Giuseppe per info aggiornate).</p>
+  </section>
+
+  <section id="alloggio">
+    <h2>Alloggio</h2>
+    <ul>
+      <li><strong>APA Hotel</strong>: catena economica e strategica, vicina alle stazioni.</li>
+      <li><strong>Ryokan</strong>: alloggio tradizionale con tatami e onsen.</li>
+      <li><strong>Capsule Hotel</strong>: esperienza unica, ideale per brevi soggiorni.</li>
+      <li><strong>Airbnb</strong>: attenzione alla metratura (gli spazi sono ridotti).</li>
+      <li><strong>Tokyo</strong>: zone consigliate: Sahimbashi, Shinjuku, Ueno.</li>
+      <li><strong>Osaka</strong>: soggiorno breve (1-2 notti). Vicino a Namba o Dotonbori.</li>
+    </ul>
+  </section>
+
+  <section id="luoghi">
+    <h2>Luoghi da visitare</h2>
+    <ul>
+      <li><strong>Tokyo</strong>: Shibuya, Shinjuku, Asakusa, Akihabara, Odaiba.</li>
+      <li><strong>Kyoto</strong>: Fushimi Inari, Nishiki Market, Kinkaku-ji, Arashiyama.</li>
+      <li><strong>Osaka</strong>: Castello di Osaka, Dotonbori (cibo di strada!), Umeda Sky Building.</li>
+      <li><strong>Nara</strong>: cervi liberi e il Tempio Todai-ji.</li>
+      <li><strong>Miyajima</strong>: l'isola sacra con il famoso torii galleggiante.</li>
+      <li><strong>Nikko e Kamakura</strong>: escursioni da Tokyo. Cultura, templi e natura.</li>
+    </ul>
+  </section>
+
+  <section id="consigli">
+    <h2>Consigli generali</h2>
+    <ul>
+      <li><strong>Porta il passaporto</strong> sempre con te (obbligatorio per gli hotel e per tax-free shopping).</li>
+      <li><strong>Scarica l'app "Japan Official Travel App"</strong>.</li>
+      <li><strong>Giappone per tutti</strong>: gruppo Facebook ricco di info pratiche.</li>
+      <li><strong>Marco Togni</strong>: autore di guide, utile per chi preferisce i contenuti scritti o YouTube.</li>
+      <li><strong>Comportamento</strong>: rispetto, silenzio nei mezzi pubblici, togli le scarpe dove richiesto.</li>
+    </ul>
+  </section>
+
+  <section id="frasi">
+    <h2>Frasi utili</h2>
+    <ul>
+      <li><strong>こんにちは</strong> (konnichiwa) = Ciao</li>
+      <li><strong>ありがとう</strong> (arigatou) = Grazie</li>
+      <li><strong>すみません</strong> (sumimasen) = Scusi / Mi scusi</li>
+      <li><strong>いくらですか？</strong> (ikura desu ka?) = Quanto costa?</li>
+      <li><strong>トイレはどこですか？</strong> (toire wa doko desu ka?) = Dov’è il bagno?</li>
+    </ul>
+  </section>
+
+  <section id="checklist">
+    <h2>Checklist pre-partenza</h2>
+    <ul>
+      <li>Passaporto + fotocopia</li>
+      <li>Adattatore prese (tipo A)</li>
+      <li>Pocket Wi-Fi o SIM dati</li>
+      <li>Yen in contanti</li>
+      <li>Scarpe comode</li>
+      <li>K-way o ombrello tascabile</li>
+      <li>Farmaci essenziali</li>
+    </ul>
+  </section>
+
+  <section id="appunti">
+    <h2>Appunti di viaggio</h2>
+    <ul>
+      <li>Controllare orari Shinkansen</li>
+      <li>Prenotare ryokan a Hakone con anticipo</li>
+      <li>Verifica validità dei pass con Navitime</li>
+      <li>Prenota hotel con cancellazione gratuita</li>
+      <li>Controlla dimensioni degli appartamenti</li>
+    </ul>
+  </section>
+
+  <section id="planner">
+    <h2>Planner giornaliero</h2>
+    <p>Giorno 1: <input type="text" placeholder="Inserisci attività del giorno" /></p>
+    <p>Giorno 2: <input type="text" placeholder="Inserisci attività del giorno" /></p>
+    <p>Giorno 3: <input type="text" placeholder="Inserisci attività del giorno" /></p>
+    <p>Giorno 4: <input type="text" placeholder="Inserisci attività del giorno" /></p>
+  </section>
+
+  <section id="glossario">
+    <h2>Glossario</h2>
+    <ul>
+      <li><strong>Onsen</strong>: sorgente termale giapponese</li>
+      <li><strong>Ryokan</strong>: hotel tradizionale giapponese</li>
+      <li><strong>Yukata</strong>: kimono leggero estivo</li>
+      <li><strong>Tatami</strong>: pavimento in paglia intrecciata</li>
+      <li><strong>Omotenashi</strong>: spirito di accoglienza giapponese</li>
+    </ul>
+  </section>
+
+  <section id="suggerimenti">
+    <h2>Suggerimenti extra</h2>
+    <ul>
+      <li>Controlla meteo giornalmente per adattare il piano</li>
+      <li>Acquista Suica digitale su iPhone (Wallet)</li>
+      <li>Conserva sempre gli scontrini per il tax-free</li>
+      <li>Evita orari di punta nella metro (7-9 e 17-19)</li>
+    </ul>
+  </section>
 </body>
 </html>
