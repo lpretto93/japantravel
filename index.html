@@ -4,7 +4,96 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Guida di Viaggio in Giappone</title>
-  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fefefe;
+      color: #1a1a1a;
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #d72638;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #d72638;
+      border-bottom: 2px solid #d72638;
+      padding-bottom: 0.2rem;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+      justify-content: center;
+    }
+
+    nav a {
+      background: #f1f1f1;
+      padding: 0.5rem 1rem;
+      border-radius: 1rem;
+      text-decoration: none;
+      font-weight: 600;
+      color: #333;
+      transition: background 0.2s;
+    }
+
+    nav a:hover {
+      background: #d72638;
+      color: #fff;
+    }
+
+    section {
+      margin-bottom: 2.5rem;
+    }
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    strong {
+      color: #d72638;
+    }
+
+    a {
+      color: #0056cc;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 0.5rem;
+    }
+
+    @media (min-width: 600px) {
+      h1 {
+        font-size: 2.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <h1>Guida di Viaggio in Giappone</h1>
@@ -12,53 +101,47 @@
   <nav>
     <a href="#trasporti">Trasporti</a>
     <a href="#alloggio">Alloggio</a>
-    <a href="#luoghi">Luoghi da visitare</a>
-    <a href="#consigli">Consigli generali</a>
-    <a href="#frasi">Frasi utili</a>
+    <a href="#luoghi">Luoghi</a>
+    <a href="#consigli">Consigli</a>
+    <a href="#frasi">Frasi</a>
     <a href="#checklist">Checklist</a>
     <a href="#appunti">Appunti</a>
-    <a href="#planner">Planner giornaliero</a>
+    <a href="#planner">Planner</a>
     <a href="#glossario">Glossario</a>
-    <a href="#suggerimenti">Suggerimenti extra</a>
+    <a href="#suggerimenti">Extra</a>
   </nav>
 
   <section id="trasporti">
     <h2>Trasporti</h2>
-    <p><strong>Google Maps</strong>: indispensabile per pianificare gli spostamenti.</p>
-    <p><strong>Japan Rail Pass (JR Pass)</strong>: conveniente per viaggi tra città. Pass regionali come il Kansai Wide o Kansai-Hiroshima sono consigliati.</p>
-    <p><strong>Trasporti notturni</strong>: autobus per tratte lunghe (es. Tokyo - Osaka), attenzione agli orari dei treni urbani dopo mezzanotte.</p>
-    <p><strong>Tokyo Metro Map</strong>: <a href="tokyo_metro.pdf">clicca qui per aprire</a></p>
-    <p><strong>App consigliate</strong>: Google Maps, Navitime, Japan Travel, Suica/Pasmo iOS, Gurunavi, Google Translate, Safety Tips.</p>
+    <p><strong>Google Maps</strong>: indispensabile per gli spostamenti.</p>
+    <p><strong>JR Pass</strong>: utile per viaggi intercity (es. Kansai Wide).</p>
+    <p><strong>Bus notturni</strong>: ideali per lunghe tratte (es. Tokyo - Osaka).</p>
+    <p><strong>Mappa Tokyo Metro</strong>: <a href="tokyo_metro.pdf">Apri PDF</a></p>
+    <p><strong>App utili</strong>: Navitime, Japan Travel, Suica, Translate, Safety Tips.</p>
   </section>
 
   <section id="alloggio">
     <h2>Alloggio</h2>
-    <p><strong>Ostelli</strong>: puliti ed economici.</p>
-    <p><strong>Ryokan</strong>: esperienza tradizionale giapponese.</p>
-    <p><strong>Airbnb</strong>: ideale per gruppi, verificare regole locali.</p>
-    <p><strong>Capsule Hotel</strong>: da provare per una notte.</p>
-    <p><strong>Hotel APA</strong>: prenotabili su Booking, posizione strategica.</p>
+    <p><strong>Ostelli</strong>: economici e puliti.</p>
+    <p><strong>Ryokan</strong>: per un'esperienza tradizionale.</p>
+    <p><strong>Capsule Hotel</strong>: da provare almeno una volta.</p>
+    <p><strong>Hotel APA</strong>: strategici, su Booking.</p>
   </section>
 
   <section id="luoghi">
     <h2>Luoghi da visitare</h2>
-    <p><strong>Tokyo</strong>: Shibuya, Shinjuku, Asakusa, Akihabara, Odaiba.</p>
-    <p><strong>Kyoto</strong>: Fushimi Inari, Kinkaku-ji, Arashiyama, Gion.</p>
-    <p><strong>Da Kyoto</strong>: Nara, Osaka, Himeji, Uji, Kurama.</p>
-    <p><strong>Hiroshima</strong>: Parco della Pace, Isola di Miyajima.</p>
+    <p><strong>Tokyo</strong>: Shibuya, Shinjuku, Akihabara, Odaiba.</p>
+    <p><strong>Kyoto</strong>: Fushimi Inari, Arashiyama, Gion.</p>
+    <p><strong>Escursioni</strong>: Nara, Osaka, Himeji, Miyajima.</p>
   </section>
 
   <section id="consigli">
     <h2>Consigli generali</h2>
-    <p><strong>Cibo</strong>: prova ramen, sushi, okonomiyaki, mochi, matcha.</p>
-    <p><strong>Konbini</strong>: ottimo cibo economico da 7-Eleven, FamilyMart, Lawson.</p>
-    <p><strong>Soldi</strong>:
-      <br>- Yen in contanti: cambia a Shibuya (sentire Giuseppe).
-      <br>- Carte prepagate: Suica, Pasmo, ICOCA per trasporti e piccoli acquisti.
-      <br>- Carta estera: accettata in hotel, grandi negozi, JR.
-    </p>
-    <p><strong>Connessione</strong>: Pocket Wi-Fi o SIM giapponese.</p>
-    <p><strong>Comportamento</strong>: silenzio sui mezzi, togli le scarpe dove richiesto, niente mance.</p>
+    <p><strong>Cibo</strong>: ramen, sushi, okonomiyaki, mochi.</p>
+    <p><strong>Convenience Store</strong>: 7-Eleven, Lawson, FamilyMart.</p>
+    <p><strong>Soldi</strong>: yen in contanti, carte prepagate Suica/Pasmo.</p>
+    <p><strong>Internet</strong>: pocket Wi-Fi o SIM locale.</p>
+    <p><strong>Comportamento</strong>: silenzio, niente mance, scarpe via dove richiesto.</p>
   </section>
 
   <section id="frasi">
@@ -72,46 +155,46 @@
   <section id="checklist">
     <h2>Checklist pre-partenza</h2>
     <ul>
-      <li>Passaporto e documenti</li>
+      <li>Passaporto</li>
       <li>Adattatore</li>
       <li>Pocket Wi-Fi</li>
-      <li>Yen in contanti</li>
+      <li>Yen</li>
       <li>Scarpe comode</li>
-      <li>K-way o ombrello</li>
+      <li>Ombrello/K-way</li>
     </ul>
   </section>
 
   <section id="appunti">
     <h2>Appunti di viaggio</h2>
     <ul>
-      <li>Controllare orari Shinkansen per Kyoto (weekend)</li>
-      <li>Visita a Nikko se c'è tempo</li>
-      <li>Prenotare ryokan a Hakone con anticipo</li>
+      <li>Controllare orari Shinkansen</li>
+      <li>Visita Nikko (opzionale)</li>
+      <li>Prenotare ryokan a Hakone</li>
     </ul>
   </section>
 
   <section id="planner">
     <h2>Planner giornaliero</h2>
-    <p>- Giorno 1: ___________________________</p>
-    <p>- Giorno 2: ___________________________</p>
-    <p>- Giorno 3: ___________________________</p>
-    <p>- Giorno 4: ___________________________</p>
+    <p>Giorno 1: <input type="text" placeholder="Scrivi qui il piano..." /></p>
+    <p>Giorno 2: <input type="text" placeholder="Scrivi qui il piano..." /></p>
+    <p>Giorno 3: <input type="text" placeholder="Scrivi qui il piano..." /></p>
+    <p>Giorno 4: <input type="text" placeholder="Scrivi qui il piano..." /></p>
   </section>
 
   <section id="glossario">
     <h2>Glossario</h2>
     <p><strong>Onsen</strong>: sorgente termale</p>
-    <p><strong>Ryokan</strong>: hotel tradizionale giapponese</p>
+    <p><strong>Ryokan</strong>: hotel tradizionale</p>
     <p><strong>Yukata</strong>: kimono leggero</p>
-    <p><strong>Tatami</strong>: pavimentazione in paglia</p>
+    <p><strong>Tatami</strong>: pavimento in paglia</p>
     <p><strong>Omotenashi</strong>: ospitalità giapponese</p>
   </section>
 
   <section id="suggerimenti">
     <h2>Suggerimenti extra</h2>
-    <p>Da Tokyo: Nikko (templi e cascate)</p>
-    <p>Da Kyoto: Uji (matcha), Himeji (castello), Kurama</p>
-    <p>Da Osaka: Castello e street food a Dotonbori</p>
+    <p>Da Tokyo: Nikko (templi e natura)</p>
+    <p>Da Kyoto: Uji (matcha), Himeji (castello)</p>
+    <p>Da Osaka: Street food a Dotonbori</p>
   </section>
 </body>
 </html>
